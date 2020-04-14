@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
 }
+
+export class TestComponent {
+  guineapigtext = 'wtf';
+}
