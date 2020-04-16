@@ -11,8 +11,8 @@ Ever looked at a big pile of alcohol but have no idea what to do with it? Make M
 This thing uses an angular front end, running mostly on GCP serverless stuff.
 
 ## Data structures
-*   The drink ingredients are all held in an in-memory db, auto-generated periodically from a scan of recipes
-*   The drinks recipes themselves are held in a noSQL db
+*   The drink ingredients are all held in an in-memory db, auto-generated periodically from a scan of recipes for simplicity of initial page load
+*   The logic database is held in traditional a noSQL database of ingredients, where all applicable drinks are held
 
 # Editing the Code (Still a total WIP)
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-hets6j)
